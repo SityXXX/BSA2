@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: $font-size;
+  line-height: $line-height;
+  color: #000;
+}

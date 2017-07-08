@@ -1,0 +1,12 @@
+{
+  "name": "bsa2",
+  "private": true,
+  "dependencies": {
+    "normalize-css": "normalize.css#^7.0.0",
+    "font-awesome": "fontawesome#^4.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
