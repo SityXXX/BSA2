@@ -49,6 +49,8 @@
     cursor: pointer;
     position: absolute;
     z-index: 1;
+    left: 10px;
+    top: 5px;
 
     @media screen and (min-width: $screen-med) {
       display: none;
@@ -58,9 +60,6 @@
 
   &__close-icon {
 
-    position: absolute;
-    left: 5px;
-    top: 5px;
     font-size: 17px;
     color: #b94a48;
 
@@ -131,6 +130,13 @@
     transition: color 0.3s;
     font-family: $font-secondary;
 
+    &:hover {
+
+      background-color: #b94a48;
+      color: #fff;
+
+    }
+
     @media screen and (min-width: $screen-med) {
 
       color: #fff;
@@ -139,13 +145,6 @@
       padding-bottom: 5px;
       position: relative;
       height: 35px;
-
-    }
-
-    &:hover {
-
-      background-color: #b94a48;
-      color: #fff;
 
     }
 

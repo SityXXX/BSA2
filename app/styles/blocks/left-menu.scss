@@ -1,0 +1,52 @@
+.left-menu {
+
+  &__list {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+  }
+
+  &__item {
+
+    &.active > .menu-accordion__link {
+
+      color: #fff;
+      background-color: #b94a48;
+
+    }
+
+  }
+
+  &__link {
+
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    color: #b94a48;
+
+    &:hover {
+
+      color: #fff;
+      background-color: #b94a48;
+
+    }
+
+    @media screen and (min-width: $screen-med) {
+
+      text-align: left;
+
+
+      &:hover {
+
+        color: #fff;
+
+      }
+
+    }
+
+  }
+
+}
