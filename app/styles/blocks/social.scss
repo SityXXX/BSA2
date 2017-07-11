@@ -1,0 +1,56 @@
+.social {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0;
+  text-align: right;
+
+  &__item {
+
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+
+    &:not(:last-child) {
+
+      margin-right: 10px;
+
+    }
+
+  }
+
+  &__link {
+
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 0;
+
+    &--go {
+
+      background-image: url('../../images/google_logo.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+
+    }
+
+    &--fb {
+
+      background-image: url('../../images/fb_logo.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+
+    }
+
+    &--tw {
+
+      background-image: url('../../images/twitter_logo.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+
+    }
+
+  }
+
+}
