@@ -8,6 +8,7 @@ var controlLeft = slider.querySelector('.promo__control-left');
 var controlRight = slider.querySelector('.promo__control-right');
 
 container.style.width = items*100 + '%';
+var maxMargin =
 
 controlLeft.onclick = function() {
   if(parseInt(container.style.marginLeft) <= -100) {
